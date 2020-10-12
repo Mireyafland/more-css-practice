@@ -1,1 +1,52 @@
-/* Add your CSS here */
+body {
+
+    text-align: center;
+}
+h1 {
+  color: black;
+  padding-top:0px;
+  font-size: 60px;
+  margin-left: 5px;
+  font-style: normal;
+  font-family: sans-serif;
+  align-content: center;
+}
+p{
+
+    font-size: 20px;
+}
+
+.flex_container{
+
+    display: flex;
+    padding-top: 20px;
+    width:50%;
+    margin-left: 25%;
+
+}
+
+.flex_container > div{
+
+    margin-left: 10px;
+    width: 33%;
+    text-align: center;
+
+
+}
+
+.btnflex{
+
+    background-color: #a6093d;
+    color:white;
+    width:75%;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.main{
+
+    width:50%;
+    text-align: center;
+    margin-left: 25%;
+    font-family: sans-serif;
+}

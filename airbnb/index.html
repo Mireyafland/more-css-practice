@@ -1,28 +1,66 @@
 <!-- Markup this content with HTML here -->
-[Page Title: Airbnb]
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Airbnb</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+    
+<body>
+
+    <div class="header">
+        <h1 class="header_text">Book unique homes and experiences. </h1>
+    </div>
+
+    <div class="user_info">
+
+        <h4 class="user_info_header">WHERE</h4>
+
+        <input type="text" class="input_info" value="Anywhere" onclick="this.value=''">
+
+        <div class="flex_container">
+
+            <div><h4 class="user_info_header">CHECK IN</h4><input type="date" class="input_info"></div>
+            <div><h4 class="user_info_header">CHECK OUT</h4><input type="date" class="input_info"></div>
+
+        </div>
+
+        <h4 class="user_info_header">GUESTS</h4>
+
+        <select name="number_guests" class="input_info">
+            <option>1 Guest</option>
+            <option>2 Guests</option>
+            <option>3 Guests</option>
+            <option>4 Guests</option>
+            <option>5 Guests</option>
+        </select>
+
+        <button class="input_info_button">Submit</button>
+
+    </div>
+
+    <div>
+
+        <h3 class="header_text">Explore Airbnb </h3>
+
+        <div class="flex_container2">
+
+            <div><img src="https://via.placeholder.com/160x70"></div>
+            <div class="explore_text"><strong>Homes</strong></div>
+            <div><img src="https://via.placeholder.com/160x70"></div>
+            <div class="explore_text"><strong>Experiences</strong></div>
+            <div><img src="https://via.placeholder.com/160x70"></div>
+            <div class="explore_text"><strong>Restaurants</strong></div>
+
+        </div>
+
+    </div>
+
+</body>
 
 
-Book unique homes and experiences.
-
-
-Where
-[Text Input]
-
-Check In
-[Date Input]
-
-Check Out
-[Date Input]
-
-Guests
-[Number Input]
-
-Search
-[Submit Input]
-
-
-Explore Airbnb
-Homes
-Experiences
-Restaurants
-
+</html>

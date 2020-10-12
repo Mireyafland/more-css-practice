@@ -1,1 +1,96 @@
 /* Add your CSS here */
+.header{
+
+    color:white;
+    background-image:url(https://ichef.bbci.co.uk/news/1024/cpsprodpb/3E5D/production/_109556951_airbnb.png);
+    background-repeat: no-repeat;
+    height:100px;
+
+
+}
+.header_text{
+
+    padding-top:30px;
+    margin-left: 5px;
+    font-style: normal;
+    font-family: sans-serif;
+}
+
+.user_info_header{
+
+    font-family: sans-serif;
+    font-style: normal;
+    margin-left: 15px;
+}
+
+.input_info {
+
+    height:30px;
+    margin-left: 15px;
+    width:75%;
+    font-family: sans-serif;
+
+}
+
+.flex_container {
+
+    display: flex;
+    width:75%;
+    margin-left: 15px;
+
+
+}
+
+.flex_container > div {
+
+
+    width:50%;
+    padding: 10px;
+    padding-left:0px;
+
+}
+
+.input_info_button{
+
+
+    width: 75%;
+    margin-left: 15px;
+    text-align: center;
+    background-color: red;
+    height:40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.explore_header{
+
+    font-style:normal;
+    font-family: sans-serif;
+
+}
+
+.flex_container2{
+
+    display: flex;
+    width:75%;
+
+}
+
+.flex_container2 > div{
+
+
+    width:16%;
+    font-family: sans-serif;
+    font-style: normal;
+    margin-left: 1px;
+
+}
+
+.explore_text{
+    text-align: left;
+    border-style:solid;
+    border-width:1px;
+    border-left-width: 0px;
+    padding-top: 25px;
+    margin-left: 0px;
+    height:45px;
+}

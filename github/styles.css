@@ -1,1 +1,38 @@
 /* Add your CSS here */
+.header{
+
+    padding:15px;
+
+}
+.main{
+
+    text-align: center;
+    padding:10px;
+    font-family: sans-serif;
+    font-style: normal;
+    width:50%;
+    margin-left:25%;
+
+}
+.caption{
+
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+    padding: 10px;
+    color:gray;
+}
+
+.flex_container{
+
+    display: flex;
+    padding: 20px;
+}
+
+.flex_container > div{
+
+    width:33%;
+    font-family: sans-serif;
+    font-style:normal;
+
+}

@@ -1,1 +1,31 @@
 /* Add your CSS here */
+body{
+
+    margin-left: 30px;
+}
+hr{
+
+    width:75%;
+    margin-left: 0px;
+}
+.amazon_book_header{
+
+    color:orange;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.caption_header {
+
+    color:gray;
+    font-size: 12px;
+}
+
+.flex_container{
+
+    display:flex;
+    width:75%;
+    margin-left: 0px;
+    margin-top:5px;
+
+}
